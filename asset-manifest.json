@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/DMVCovidApp/static/css/main.5f361e03.chunk.css",
+    "main.js": "/DMVCovidApp/static/js/main.ff8587f6.chunk.js",
+    "main.js.map": "/DMVCovidApp/static/js/main.ff8587f6.chunk.js.map",
+    "runtime-main.js": "/DMVCovidApp/static/js/runtime-main.2c3db9ee.js",
+    "runtime-main.js.map": "/DMVCovidApp/static/js/runtime-main.2c3db9ee.js.map",
+    "static/js/2.f30170b2.chunk.js": "/DMVCovidApp/static/js/2.f30170b2.chunk.js",
+    "static/js/2.f30170b2.chunk.js.map": "/DMVCovidApp/static/js/2.f30170b2.chunk.js.map",
+    "index.html": "/DMVCovidApp/index.html",
+    "precache-manifest.ca93a73769e65099db914864043465c7.js": "/DMVCovidApp/precache-manifest.ca93a73769e65099db914864043465c7.js",
+    "service-worker.js": "/DMVCovidApp/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/DMVCovidApp/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.f30170b2.chunk.js.LICENSE.txt": "/DMVCovidApp/static/js/2.f30170b2.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/DMVCovidApp/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2c3db9ee.js",
+    "static/js/2.f30170b2.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.ff8587f6.chunk.js"
+  ]
+}
