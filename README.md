@@ -61,7 +61,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 
 ### Deployment
 
-npm run deploy
+`npm run deploy`
 This will compile your local github repo and push the compiled website/ReactCode to GitPages
 ### `npm run build` fails to minify
 
