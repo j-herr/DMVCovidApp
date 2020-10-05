@@ -5,7 +5,7 @@ import LocateTestCenter from './props/LocateTestCenter'
 import TopNav from './props/TopNav'
 import { Button } from '@material-ui/core';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link,
@@ -17,11 +17,15 @@ function App() {
   return (
     <div className="App">
       <TopNav />
-      <Route path="/home" children={<Child name='home'/>} />
-      <Route path="/world" children={<Child name='world'/>} />
-      <Route path="/locations" children={<LocateTestCenter />} />
-      <Route path="/local-data" children={<Child  name='Local DMV Data'/>} />
-      <Route path="/vaccine" children={<Child name='Vaccine'/>} />
+      <Router>
+        <Switch>
+        <Route path="/home" children={<Child name='home'/>} />
+        <Route path="/world" children={<Child name='world'/>} />
+        <Route path="/locations" children={<LocateTestCenter />} />
+        <Route path="/local-data" children={<Child  name='Local DMV Data'/>} />
+        <Route path="/vaccine" children={<Child name='Vaccine'/>} />
+        </Switch>
+      </Router>
         {/* <h2>Accounts</h2>
       <LocateTestCenter message='testing'/>
     <h1>{test}</h1> */}
