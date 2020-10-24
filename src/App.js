@@ -11,6 +11,7 @@ import {
   Link,
   useParams
 } from "react-router-dom";
+import AboutCovid19 from './props/AboutCovid19';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/locations" children={<LocateTestCenter />} />
         <Route path="/local-data" children={<Child  name='Local DMV Data'/>} />
         <Route path="/vaccine" children={<Child name='Vaccine'/>} />
+        <Route path="/about-covid19" children={<AboutCovid19 />} />
         </Switch>
       </Router>
         {/* <h2>Accounts</h2>

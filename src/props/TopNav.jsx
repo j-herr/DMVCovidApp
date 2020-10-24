@@ -16,6 +16,7 @@ class TopNav extends React.Component {
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
+                  <Nav.Link href="#about-covid19">About Covid19</Nav.Link>
                   <Nav.Link href="#locations">Testing Locations</Nav.Link>
                   <Nav.Link href="#local-data">Local DMV Data</Nav.Link>
                   <Nav.Link href="#world">World Info</Nav.Link>
