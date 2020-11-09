@@ -48,7 +48,7 @@ function AboutCovid19() {
     }, [])
 
     return (
-        <div class="main">
+        <div className="main">
             <img className="dmv" src={require("./images/dmv-graphic.png")} alt="dmv"/>
 
             <div className="data">
@@ -77,25 +77,25 @@ function AboutCovid19() {
             
             <img className="title" src={require("./images/image.png")} alt="title"/>
                 
-            <div class="animation">
-                <h1 class="text">Social Distancing </h1>
+            <div className="animation">
+                <h1 className="text">Social Distancing</h1>
                 <p style={{textAlign: "center"}}>
                     Help prevent the spread of Coronavirus <img
-                    class="img-v"
-                    src="http://www.pngall.com/wp-content/uploads/4/Coronavirus-Germs-PNG-File.png"
+                    className="img-v"
+                    src={require("./images/covid-image2.png")}
                     alt=""
                     /> 
                     by maintaining at least <span style={{color: "red", fontWeight: "400", fontSize: "30px"}}> 6 feet </span> between you and others.
                 </p>
             
-                <div class="icons">
-                    <span class="advice">
+                <div className="icons">
+                    <span className="advice">
                         <h3>Avoid physical contact</h3>
                     </span>
-                    <span class="advice">
+                    <span className="advice">
                         <h3>Wash your hands</h3>
                     </span>
-                    <span class="advice">
+                    <span className="advice">
                         <h3>Use mask</h3>
                     </span>
                 </div>
@@ -118,7 +118,7 @@ function AboutCovid19() {
             <h3>Symptoms of Coronavirus <button onClick={toggle3}><FontAwesomeIcon icon={down} /></button></h3>
             {part3 &&
                 <div className="part3">
-                    <div class="move-right">
+                    <div className="move-right">
                         <p>People with COVID-19 have had a wide range of symptoms reported – ranging from mild symptoms to severe illness. Symptoms may appear 2-14 days after exposure to the virus. People with these symptoms may have COVID-19:</p>
                         <li>Fever or chills</li>
                         <li>Cough</li>
@@ -148,17 +148,17 @@ function AboutCovid19() {
                 width="560" 
                 height="315" 
                 src="https://www.youtube.com/embed/kEhNyxKopsg" 
-                frameborder="0" 
+                frameBorder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
+                allowFullScreen>
             </iframe>
             <iframe 
                 width="560" 
                 height="315" 
                 src="https://www.youtube.com/embed/Mn6axdkbGd4" 
-                frameborder="0" 
+                frameBorder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
+                allowFullScreen>
             </iframe>
             </div>
 

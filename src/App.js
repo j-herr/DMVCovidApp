@@ -1,52 +1,27 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Route} from 'react-router-dom'
 import './App.css';
-import LocateTestCenter from './props/LocateTestCenter'
 import TopNav from './props/TopNav'
-import { Button } from '@material-ui/core';
-import {
-  HashRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useParams
-} from "react-router-dom";
+import LocateTestCenter from './props/LocateTestCenter'
 import AboutCovid19 from './props/AboutCovid19';
+import Home from './props/Home';
 
 
 function App() {
-  return (
-    <div className="App">
-      <TopNav />
+  return (    
       <Router>
-        <Switch>
-        <Route path="/home" children={<Child name='home'/>} />
-        <Route path="/world" children={<Child name='world'/>} />
-        <Route path="/locations" children={<LocateTestCenter />} />
-        <Route path="/local-data" children={<Child  name='Local DMV Data'/>} />
-        <Route path="/vaccine" children={<Child name='Vaccine'/>} />
-        <Route path="/about-covid19" children={<AboutCovid19 />} />
-        </Switch>
-      </Router>
-        {/* <h2>Accounts</h2>
-      <LocateTestCenter message='testing'/>
-    <h1>{test}</h1> */}
-    </div>
-    
+        <TopNav></TopNav>
+        <div>
+            <Route path="/" exact component={Home} />
+            <Route path="/home" exact component={Home} />
+            <Route path="/world" exact component={Home}/>
+            <Route path="/locations" exact component={LocateTestCenter} />
+            <Route path="/local-data" exact component={Home} />
+            <Route path="/vaccine" exact component={Home} />
+            <Route path="/about-covid19" exact component={AboutCovid19} />
+        </div>       
+      </Router>    
   )
 }
 
-class Child extends Component {
-  // We can use the `useParams` hook here to access
-  // the dynamic pieces of the URL.
-  
-
-  render(){
-    return (
-      <div className='testing'>
-        <h3>Place Holder PROP: '{this.props.name}'</h3>
-      </div>
-    );
-  }
-}
 export default App;

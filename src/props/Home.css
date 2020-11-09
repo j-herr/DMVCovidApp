@@ -1,0 +1,10 @@
+.main-home{
+    color: black;
+    background-color: white;
+    height: 100%;
+    text-align: center;
+}
+
+.main-home .links{
+    list-style-type: none;
+}
