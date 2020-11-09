@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import GoogleMapReact from 'google-map-react';
 import Grid from '@material-ui/core/Grid';
 import { Button } from '@material-ui/core';
