@@ -1,10 +1,5 @@
 import React from 'react';
-import{ Navbar, Nav, Button, NavDropdown}  from "react-bootstrap";
-
-const nav = {
-    width: '100%',
-    height: '100%'
-};
+import{ Navbar, Nav}  from "react-bootstrap";
 
 class TopNav extends React.Component {
     render() {

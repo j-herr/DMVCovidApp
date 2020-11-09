@@ -145,6 +145,7 @@ function AboutCovid19() {
 
             <div className="videos">
             <iframe 
+                title="1"
                 width="560" 
                 height="315" 
                 src="https://www.youtube.com/embed/kEhNyxKopsg" 
@@ -153,6 +154,7 @@ function AboutCovid19() {
                 allowFullScreen>
             </iframe>
             <iframe 
+                title="2"
                 width="560" 
                 height="315" 
                 src="https://www.youtube.com/embed/Mn6axdkbGd4" 
