@@ -10,10 +10,10 @@ function Home() {
             
             <ul className="links">
                 <li><Link to="/about-covid19">About Covid 19</Link></li>
-                <li><Link to="/about-covid19">Testing Locations</Link></li>
-                <li><Link to="/about-covid19">Local DMV Data</Link></li>
-                <li><Link to="/about-covid19">World Info</Link></li>
-                <li><Link to="/about-covid19">Vaccines News</Link></li>
+                <li><Link to="/locations">Testing Locations</Link></li>
+                <li><Link to="/local-data">Local DMV Data</Link></li>
+                <li><Link to="/world">World Info</Link></li>
+                <li><Link to="/vaccine">Vaccines News</Link></li>
             </ul>
 
             <img src={require("./gifs/keep-calm.gif")} alt="keep calm"/>
