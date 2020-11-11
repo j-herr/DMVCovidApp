@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/DMVCovidApp/static/css/main.357e4061.chunk.css",
-    "main.js": "/DMVCovidApp/static/js/main.1d631d0e.chunk.js",
-    "main.js.map": "/DMVCovidApp/static/js/main.1d631d0e.chunk.js.map",
+    "main.css": "/DMVCovidApp/static/css/main.7f9acb3e.chunk.css",
+    "main.js": "/DMVCovidApp/static/js/main.89ae9b08.chunk.js",
+    "main.js.map": "/DMVCovidApp/static/js/main.89ae9b08.chunk.js.map",
     "runtime-main.js": "/DMVCovidApp/static/js/runtime-main.2c3db9ee.js",
     "runtime-main.js.map": "/DMVCovidApp/static/js/runtime-main.2c3db9ee.js.map",
-    "static/js/2.97df1847.chunk.js": "/DMVCovidApp/static/js/2.97df1847.chunk.js",
-    "static/js/2.97df1847.chunk.js.map": "/DMVCovidApp/static/js/2.97df1847.chunk.js.map",
+    "static/js/2.164f4887.chunk.js": "/DMVCovidApp/static/js/2.164f4887.chunk.js",
+    "static/js/2.164f4887.chunk.js.map": "/DMVCovidApp/static/js/2.164f4887.chunk.js.map",
     "index.html": "/DMVCovidApp/index.html",
-    "precache-manifest.5bdd779642b591f3d060d08c944e7103.js": "/DMVCovidApp/precache-manifest.5bdd779642b591f3d060d08c944e7103.js",
+    "precache-manifest.f9c6a6518b0489ebd670cdb89a27702b.js": "/DMVCovidApp/precache-manifest.f9c6a6518b0489ebd670cdb89a27702b.js",
     "service-worker.js": "/DMVCovidApp/service-worker.js",
-    "static/css/main.357e4061.chunk.css.map": "/DMVCovidApp/static/css/main.357e4061.chunk.css.map",
-    "static/js/2.97df1847.chunk.js.LICENSE.txt": "/DMVCovidApp/static/js/2.97df1847.chunk.js.LICENSE.txt",
+    "static/css/main.7f9acb3e.chunk.css.map": "/DMVCovidApp/static/css/main.7f9acb3e.chunk.css.map",
+    "static/js/2.164f4887.chunk.js.LICENSE.txt": "/DMVCovidApp/static/js/2.164f4887.chunk.js.LICENSE.txt",
+    "static/media/AboutCovid19.css": "/DMVCovidApp/static/media/covid-image.94940c7f.png",
+    "static/media/dmv-graphic.png": "/DMVCovidApp/static/media/dmv-graphic.aeba634a.png",
+    "static/media/image.png": "/DMVCovidApp/static/media/image.d7265326.png",
     "static/media/logo.svg": "/DMVCovidApp/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2c3db9ee.js",
-    "static/js/2.97df1847.chunk.js",
-    "static/css/main.357e4061.chunk.css",
-    "static/js/main.1d631d0e.chunk.js"
+    "static/js/2.164f4887.chunk.js",
+    "static/css/main.7f9acb3e.chunk.css",
+    "static/js/main.89ae9b08.chunk.js"
   ]
 }
