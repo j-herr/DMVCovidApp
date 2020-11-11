@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route} from 'react-router-dom'
 import './App.css';
-import TopNav from './props/TopNav'
 import LocateTestCenter from './props/LocateTestCenter'
 import AboutCovid19 from './props/AboutCovid19';
 import Home from './props/Home';
 import EmptyPage from './props/EmptyPage';
+import TopNav from './props/TopNav';
 // import {
 //   HashRouter as Router,
 //   Switch,
