@@ -9,11 +9,11 @@ function Home() {
             <h3>Visit other webpages to learn more!</h3>
             
             <ul className="links">
-                <li><Link to="/about-covid19">About Covid 19</Link></li>
-                <li><Link to="/locations">Testing Locations</Link></li>
-                <li><Link to="/local-data">Local DMV Data</Link></li>
-                <li><Link to="/world">World Info</Link></li>
-                <li><Link to="/vaccine">Vaccines News</Link></li>
+                <li><Link to="/DMVCovidApp/about-covid19">About Covid 19</Link></li>
+                <li><Link to="/DMVCovidApp/locations">Testing Locations</Link></li>
+                <li><Link to="/DMVCovidApp/local-data">Local DMV Data</Link></li>
+                <li><Link to="/DMVCovidApp/world">World Info</Link></li>
+                <li><Link to="/DMVCovidApp/accine">Vaccines News</Link></li>
             </ul>
 
             <img src={require("./gifs/keep-calm.gif")} alt="keep calm"/>
