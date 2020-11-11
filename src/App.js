@@ -6,6 +6,13 @@ import LocateTestCenter from './props/LocateTestCenter'
 import AboutCovid19 from './props/AboutCovid19';
 import Home from './props/Home';
 import EmptyPage from './props/EmptyPage';
+// import {
+//   HashRouter as Router,
+//   Switch,
+//   Route,
+//   Link,
+//   useParams
+// } from "react-router-dom";
 
 
 function App() {
