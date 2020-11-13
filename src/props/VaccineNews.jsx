@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Card } from 'react-bootstrap';
 
-const API = 'http://newsapi.org/v2/everything?' +
+const API = 'https://newsapi.org/v2/everything?' +
 'q=vaccine&' +
 'from=2020-11-12&' +
 'sortBy=popularity&' +
