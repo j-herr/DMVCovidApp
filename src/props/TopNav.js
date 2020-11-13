@@ -12,7 +12,7 @@ function TopNav() {
               <Link className="link" to="/locations">Testing Locations</Link>
               <Link className="link" to="/local-data">Local DMV Data</Link>
               <Link className="link" to="/world">World Info</Link>
-              <Link className="link" to="/vaccine">Vaccines News</Link>
+              <Link className="link" to="/vaccine">Vaccine News</Link>
             </div>
               
         </div>
