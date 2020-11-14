@@ -29,7 +29,7 @@ class VaccineNews extends Component {
           <Navbar bg = "dark" variant="dark">
             <Navbar.Brand>COVID-19 Vaccine News Dashboard</Navbar.Brand>
             </Navbar>
-            {articles.map(article =>
+            {articles && articles.map(article =>
                 <Card style = {{width:'90rem'}}>
                     <Card.Body>
                     <Card.Title><a href={article.url}>{article.title}</a></Card.Title>
