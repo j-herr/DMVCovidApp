@@ -14,7 +14,7 @@ function Home() {
                     <li><Link to="/locations">Testing Locations</Link></li>
                     <li><Link to="/local-data">Local DMV Data</Link></li>
                     <li><Link to="/world">World Info</Link></li>
-                    <li><Link to="/vaccine">Vaccines News</Link></li>
+                    <li><Link to="/vaccine">Vaccine News</Link></li>
                 </ul>
             </div>
             

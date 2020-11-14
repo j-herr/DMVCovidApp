@@ -4,7 +4,7 @@ import { Navbar, Card } from 'react-bootstrap';
 
 const API = 'https://newsapi.org/v2/everything?' +
 'q=vaccine&' +
-'from=2020-11-12&' +
+'from=2020-11-14&' +
 'sortBy=popularity&' +
 'apiKey=4b0d28af43c340ea9794a5262f45426b';
 
