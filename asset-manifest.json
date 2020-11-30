@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/DMVCovidApp/static/css/main.2c976995.chunk.css",
-    "main.js": "/DMVCovidApp/static/js/main.08bb4bcf.chunk.js",
-    "main.js.map": "/DMVCovidApp/static/js/main.08bb4bcf.chunk.js.map",
+    "main.css": "/DMVCovidApp/static/css/main.36c87050.chunk.css",
+    "main.js": "/DMVCovidApp/static/js/main.922ca145.chunk.js",
+    "main.js.map": "/DMVCovidApp/static/js/main.922ca145.chunk.js.map",
     "runtime-main.js": "/DMVCovidApp/static/js/runtime-main.2c3db9ee.js",
     "runtime-main.js.map": "/DMVCovidApp/static/js/runtime-main.2c3db9ee.js.map",
     "static/css/2.2a86faee.chunk.css": "/DMVCovidApp/static/css/2.2a86faee.chunk.css",
-    "static/js/2.8573b182.chunk.js": "/DMVCovidApp/static/js/2.8573b182.chunk.js",
-    "static/js/2.8573b182.chunk.js.map": "/DMVCovidApp/static/js/2.8573b182.chunk.js.map",
+    "static/js/2.46925ce7.chunk.js": "/DMVCovidApp/static/js/2.46925ce7.chunk.js",
+    "static/js/2.46925ce7.chunk.js.map": "/DMVCovidApp/static/js/2.46925ce7.chunk.js.map",
     "index.html": "/DMVCovidApp/index.html",
-    "precache-manifest.47f22fcdad222c4be56908474542e2b0.js": "/DMVCovidApp/precache-manifest.47f22fcdad222c4be56908474542e2b0.js",
+    "precache-manifest.d28ec19d5a8db4de5879f388b36e0a5d.js": "/DMVCovidApp/precache-manifest.d28ec19d5a8db4de5879f388b36e0a5d.js",
     "service-worker.js": "/DMVCovidApp/service-worker.js",
     "static/css/2.2a86faee.chunk.css.map": "/DMVCovidApp/static/css/2.2a86faee.chunk.css.map",
-    "static/css/main.2c976995.chunk.css.map": "/DMVCovidApp/static/css/main.2c976995.chunk.css.map",
-    "static/js/2.8573b182.chunk.js.LICENSE.txt": "/DMVCovidApp/static/js/2.8573b182.chunk.js.LICENSE.txt",
+    "static/css/main.36c87050.chunk.css.map": "/DMVCovidApp/static/css/main.36c87050.chunk.css.map",
+    "static/js/2.46925ce7.chunk.js.LICENSE.txt": "/DMVCovidApp/static/js/2.46925ce7.chunk.js.LICENSE.txt",
     "static/media/AboutCovid19.css": "/DMVCovidApp/static/media/covid-image.94940c7f.png",
     "static/media/covid-image2.png": "/DMVCovidApp/static/media/covid-image2.04ecdd69.png",
     "static/media/dmv-graphic.png": "/DMVCovidApp/static/media/dmv-graphic.aeba634a.png",
-    "static/media/image.png": "/DMVCovidApp/static/media/image.d7265326.png",
+    "static/media/World.css": "/DMVCovidApp/static/media/image.d7265326.png",
     "static/media/keep-calm.gif": "/DMVCovidApp/static/media/keep-calm.a0157746.gif",
     "static/media/keep-distance.gif": "/DMVCovidApp/static/media/keep-distance.8ddaa4cf.gif",
     "static/media/quarantine.gif": "/DMVCovidApp/static/media/quarantine.0cbe1f38.gif",
@@ -28,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.2c3db9ee.js",
     "static/css/2.2a86faee.chunk.css",
-    "static/js/2.8573b182.chunk.js",
-    "static/css/main.2c976995.chunk.css",
-    "static/js/main.08bb4bcf.chunk.js"
+    "static/js/2.46925ce7.chunk.js",
+    "static/css/main.36c87050.chunk.css",
+    "static/js/main.922ca145.chunk.js"
   ]
 }
