@@ -4,6 +4,7 @@ import './App.css';
 import LocateTestCenter from './props/LocateTestCenter'
 import AboutCovid19 from './props/AboutCovid19';
 import Home from './props/Home';
+import World from './props/World';
 import EmptyPage from './props/EmptyPage';
 import VaccineNews from './props/VaccineNews';
 import TopNav from './props/TopNav';
@@ -22,7 +23,7 @@ function App() {
         <TopNav></TopNav>
         <div>
             <Route path="/" exact component={Home} />
-            <Route path="/world" exact component={EmptyPage}/>
+            <Route path="/world" exact component={World}/>
             <Route path="/locations" exact component={LocateTestCenter} />
             <Route path="/local-data" exact component={EmptyPage} />
             <Route path="/vaccine" exact component={VaccineNews} />
