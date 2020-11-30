@@ -1,0 +1,29 @@
+
+.table-wrapper{
+  margin: 5% ;
+}
+.list{
+  display: flex;
+  background-color: #2f4f4f;
+  margin: 0 5%;
+  width: fit-content;
+  margin: auto;
+}
+.list li{
+  list-style-type: none;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 10px;
+  color: aliceblue;
+  
+}
+.coronavirus-img{
+  margin-top: 15px;
+  display: block;
+  text-align: center;
+  background-image: url("./images/image.png");
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
