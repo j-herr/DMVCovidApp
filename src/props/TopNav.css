@@ -6,6 +6,11 @@
     padding: 10px;
 }
 
+.logo{
+    width: 60px;
+    height: auto;
+}
+
 .home-page{
     font-size: 30px;
     color: white;
@@ -18,7 +23,7 @@
 }
 
 .link-topNav{
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .link{
