@@ -7,6 +7,7 @@ const mapStyle = {
     width:400,
     height: 500,
     margin: '0 auto',
+    padding: '10px',
 }
 const pageStyle = {
     background:'#ffffff',
@@ -20,10 +21,11 @@ const grid = {
 const whereToTest ="COVID-19 tests are available at no cost nationwide at health centers and select pharmacies. The Families First Coronavirus Response Act ensures that COVID-19 testing is free to anyone in the U.S., including the uninsured. Additional testing sites may be available in your area. Contact your health care provider or your state or local public health department for more information"
 
 class LocateTestCenter extends React.Component {
+    //Location of Fairfax testing locations
     static defaultProps = {
         center: {
-          lat: 59.95,
-          lng: 30.33
+          lat: 38.872724,
+          lng: -77.262617
         },
         zoom: 11
     };
@@ -31,7 +33,7 @@ class LocateTestCenter extends React.Component {
     render() {
         return(
             <div style={pageStyle}>
-                <Grid container direction='column' style={grid}>
+                <Grid container direction='column' align={'center'} style={grid}>
                     <h1>Where are the Closest Testing Centers?</h1>
                     <p>{whereToTest}</p>
                     <h1>Covid Testing Stations:</h1>
@@ -42,8 +44,8 @@ class LocateTestCenter extends React.Component {
                             defaultZoom={this.props.zoom}
                         ></GoogleMapReact>
                     </div>
+                    <Button title='' flex variant="contained"> Take me to the Closest Location</Button>
                 </Grid>
-                <Button flex title='' variant="contained"> Take me to the Closest Location</Button>
             </div>
         );
     };
