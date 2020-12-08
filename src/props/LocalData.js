@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import './LocalData.css'
+import Chart from "react-apexcharts"
+import Axios from 'axios';
 
 function LocalData() {
+    
     const [dataVirginia, setDataVirginia] = useState("");
     const [dataMaryland, setDataMaryland] = useState("");
     const [dataDC, setDataDC] = useState("");
@@ -30,6 +33,41 @@ function LocalData() {
         getDataDC();
     }, [])
 
+    const series = [{
+        name: 'Cases Today',
+        data: [183, 2302, 3817]
+    }, {
+        name: 'Deaths Today',
+        data: [4, 19, 8]
+    }];
+
+    const options = {
+        plotOptions: {
+          bar: {
+            horizontal: true,
+            dataLabels: {
+              position: 'top',
+            },
+          }
+        },
+        dataLabels: {
+          enabled: true,
+          offsetX: -6,
+          style: {
+            fontSize: '12px',
+            colors: ['#fff']
+          }
+        },
+        stroke: {
+          show: true,
+          width: 1,
+          colors: ['#fff']
+        },
+        xaxis: {
+          categories: ['Washington D.C.', 'Maryland', 'Virginia'],
+        },
+    }
+
     return (
         <div class="LocalDataMain">
             <img className="dmv" src={require("./images/dmv-graphic.png")} alt="dmv"/>
@@ -55,6 +93,18 @@ function LocalData() {
                     <p>Today's deaths: {dataVirginia.todayDeaths}</p>
                     <p style={{color: "red"}}>Active cases: {dataVirginia.active}</p>
                 </div>
+            </div>
+            <div>
+              <br />
+              <h2>DMV Area</h2>
+              <br />
+              <Chart
+                options={options}
+                series={series}
+                type="bar"
+                height={400}
+              />
+              <br />
             </div>
         </div>       
     )
