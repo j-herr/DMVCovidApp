@@ -82,7 +82,7 @@ function LocalData() {
     }
 
     return (
-        <div class="LocalDataMain">
+        <div className="LocalDataMain">
             <img className="dmv" src={require("./images/dmv-graphic.png")} alt="dmv"/>
             <div className="data">
                 <div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { Link, HashRouter as Router } from 'react-router-dom';
 import './Home.css'
 
 function Home() {
@@ -9,13 +9,16 @@ function Home() {
                 <h1>Stay informed during the pandemic</h1>
                 <h3>Visit other webpages to learn more!</h3>
                 
-                <ul className="links">
-                    <li><Link to="/about-covid19">About Covid 19</Link></li>
-                    <li><Link to="/locations">Testing Locations</Link></li>
-                    <li><Link to="/local-data">Local DMV Data</Link></li>
-                    <li><Link to="/world">World Info</Link></li>
-                    <li><Link to="/vaccine">Vaccine News</Link></li>
-                </ul>
+                <Router>
+                    <ul className="links">
+                        <li><Link to="/about-covid19">About Covid 19</Link></li>
+                        <li><Link to="/locations">Testing Locations</Link></li>
+                        <li><Link to="/local-data">Local DMV Data</Link></li>
+                        <li><Link to="/world">World Info</Link></li>
+                        <li><Link to="/vaccine">Vaccine News</Link></li>
+                    </ul>
+                </Router>
+                
             </div>
             
             <img src={require("./gifs/keep-calm.gif")} alt="keep calm"/>
