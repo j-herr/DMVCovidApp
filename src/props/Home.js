@@ -17,8 +17,7 @@ function Home() {
                         <li><Link to="/world">World Info</Link></li>
                         <li><Link to="/vaccine">Vaccine News</Link></li>
                     </ul>
-                </Router>
-                
+                </Router>               
             </div>
             
             <img src={require("./gifs/keep-calm.gif")} alt="keep calm"/>
@@ -30,5 +29,4 @@ function Home() {
         </div>
     )
 }
-
 export default Home
