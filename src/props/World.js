@@ -27,8 +27,7 @@ function World() {
     };
     fetchData();
   }, [])
-  const s = [];
-  console.log("data", data);
+
   return (
     <div>
       <div className="coronavirus-img"/>
@@ -57,7 +56,7 @@ function World() {
             </thead>
             <tbody>
               {data.Countries.sort((a, b) => b.TotalConfirmed - a.TotalConfirmed).map((country, i) => {
-                let rowStyle = (i % 2 == 0) ? "table-success" : "table-secondary";
+                let rowStyle = (i % 2 === 0) ? "table-success" : "table-secondary";
                 return (
                   <tr className={rowStyle} key={i}>
                     <th scope="row">{country.Country}</th>
